@@ -20,3 +20,6 @@ export const ClinicReducer = (state = {}, action) => {
 export const NotifyReducer = (state = {}, action) => {
   return state
 }
+export const SuscriberReducer = (state = {}, action) => {
+  return state
+}

@@ -12,6 +12,24 @@ bin-release/
 *.air
 *.ipa
 *.apk
+#testing
+/coverage
+#dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+#production
+/build
+
+#misc
+.DS_Store
+.env.local
+.env.development.loceal
+.env.test.local
+.env.production.local
+.env.production
+
 
 # Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
 # should NOT be excluded as they contain compiler settings and other important

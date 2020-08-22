@@ -1,6 +1,6 @@
-import { createStore,combineReducers,applyMiddleware} from "redux"
+import { createStore,combineReducers} from "redux"
 
 export default createStore(
-    combineReducers(),
+    combineReducers()
 
 )

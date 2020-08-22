@@ -1,18 +1,17 @@
 import React from 'react'
 import {Route, Redirect} from 'react-router-dom'
 
-const Protected = ({component: Component, ...rest}) => {
+const Public = ({component: Component, ...rest}) => {
     const userLogged =true
 
 
-    if(!userLogged ){
-        return <Redirect to="/login"/>
+    if(userLogged ){
+        return <Redirect to="/"/>
     }
 
     return (
        <Route {...rest} render={Component}/>
-       
     )
 }
 
-export default Protected
+export default Public

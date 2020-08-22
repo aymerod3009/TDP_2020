@@ -10,8 +10,11 @@ const authentication = e =>{
         "password": form.password.value
     }
    
-    Axios.post('3.230.230.245:5000/api/auth/login',data)
-    .then(r => console.log(r))
+    Axios.post('http://3.230.230.245:5000/api/auth/login',data)
+    .then(r => {
+        localStorage.setItem('token',r.data.token)
+        window.location="/"
+    })
     .catch(e => console.log(e))
 }
 

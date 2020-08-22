@@ -7,10 +7,11 @@ import {postReducer,
         DoctorReducer,
         PatientReducer,
         ClinicReducer,
-        NotifyReducer} from "./reducers"
+        NotifyReducer,
+        SuscriberReducer} from "./reducers"
 
 export default createStore(
-    combineReducers(postReducer,DeviceReducer,sadminReducer,DoctorReducer,PatientReducer,ClinicReducer,NotifyReducer),
+    combineReducers({postReducer,DeviceReducer,sadminReducer,DoctorReducer,PatientReducer,ClinicReducer,NotifyReducer,SuscriberReducer}),
     composeWithDevTools(applyMiddleware(thunk))
 
 )

@@ -5,7 +5,7 @@ export const MenuDash = () => {
         <div>
             <aside className="main-sidebar sidebar-dark-primary elevation-4">
                 {/* Brand Logo */}
-                <a href="index3.html" className="brand-link">
+                <a  className="brand-link">
                     {/*            <img src="http://miqueperu.com/img/me.png" alt="MDlogo" className="main-logo" />
 */}
                     <img src="http://miqueperu.com/img/me.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{ opacity: '.8' }} />
@@ -19,7 +19,7 @@ export const MenuDash = () => {
                             <img src="dist/img/user2-160x160.jpg" className="img-circle elevation-2" alt="User Image" />
                         </div>
                         <div className="info">
-                            <a href="#" className="d-block">Alexander Pierce</a>
+                            <a  className="d-block">Alexander Pierce</a>
                         </div>
                     </div>
                     {/* Sidebar Menu */}

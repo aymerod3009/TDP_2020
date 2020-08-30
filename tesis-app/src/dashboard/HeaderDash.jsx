@@ -8,10 +8,10 @@ export const HeaderDash = () => {
                 {/* Left navbar links */}
                 <ul className="navbar-nav">
                     <li className="nav-item">
-                        <a className="nav-link" data-widget="pushmenu" href="#" role="button"><i className="fas fa-bars" /></a>
+                        <a className="nav-link" data-widget="pushmenu"  role="button"><i className="fas fa-bars" /></a>
                     </li>
                     <li className="nav-item d-none d-sm-inline-block">
-                        <a href="index3.html" className="nav-link">Home</a>
+                        <a  className="nav-link">Home</a>
                     </li>
                 </ul>
             

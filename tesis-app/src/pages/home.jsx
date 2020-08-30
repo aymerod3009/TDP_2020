@@ -1,9 +1,16 @@
 import React from 'react'
+import { HeaderDash } from '../dashboard/HeaderDash'
+import { MenuDash } from '../dashboard/MenuDash'
+import { ContentDash } from '../dashboard/ContentDash'
+import { FooterDash } from '../dashboard/FooterDash'
 
 export const home = () => {
     return (
-        <div className="ed-grid">
-            <h1>home</h1>
+        <div>
+            <HeaderDash />
+            <MenuDash />
+            <ContentDash />
+            <FooterDash />
         </div>
     )
 }

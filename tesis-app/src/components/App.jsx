@@ -12,11 +12,12 @@ import patient from '../pages/patient';
 import Public from '../router/Public';
 import login from '../pages/login';
 import page404 from '../pages/page404';
-import Header from '../organisms/Header';
+//import Header from '../organisms/Header';
 
 const App = () => (
-    <Router>
-        <Header/>
+     <Router> 
+
+
         <Switch>
             <Protected path="/" exact component={home}/>
             <Protected path="/clinicas" exact component={clinics}/>
@@ -31,7 +32,8 @@ const App = () => (
            
             <Route component={page404}/>
         </Switch>
-    </Router>
+
+     </Router> 
 )
 
 export default App;

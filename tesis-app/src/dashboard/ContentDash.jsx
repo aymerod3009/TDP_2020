@@ -5,6 +5,13 @@ export const ContentDash = () => {
     return (
         <div className="content-wrapper">
             <ClinicaContent/>
+            {/*
+            <AdminClinicas />
+            <PacientesContent />
+            ...          
+
+            
+            */}
         </div>
 
     )

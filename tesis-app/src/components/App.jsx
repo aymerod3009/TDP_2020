@@ -12,12 +12,10 @@ import patient from '../pages/patient';
 import Public from '../router/Public';
 import login from '../pages/login';
 import page404 from '../pages/page404';
-//import Header from '../organisms/Header';
+
 
 const App = () => (
      <Router> 
-
-
         <Switch>
             <Protected path="/" exact component={home}/>
             <Protected path="/clinicas" exact component={clinics}/>
@@ -26,13 +24,9 @@ const App = () => (
             <Protected path="/contactenos" exact component={contac}/>
             <Protected path="/notificaciones" exact component={notify}/>
             <Protected path="/pacientes" exact component={patient}/>
-
-
-            <Public path="/login" exact component={login}/>
-           
+            <Public path="/login" exact component={login}/>         
             <Route component={page404}/>
         </Switch>
-
      </Router> 
 )
 

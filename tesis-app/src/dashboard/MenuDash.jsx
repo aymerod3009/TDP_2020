@@ -29,7 +29,7 @@ export const MenuDash = () => {
          with font-awesome or any other icon font library */}
 
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a  className="nav-link">
                                     <i className="nav-icon fas fa-clinic-medical" />
                                     <p>
                                         Clínicas
@@ -37,7 +37,7 @@ export const MenuDash = () => {
                                 </a>
                             </li>
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a   className="nav-link">
                                     <i className="nav-icon fas fa-building" />
                                     <p>
                                         Admin Clínicas
@@ -46,7 +46,7 @@ export const MenuDash = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a   className="nav-link">
                                     <i className="nav-icon fas fa-user-injured" />
                                     <p>
                                         Pacientes
@@ -55,7 +55,7 @@ export const MenuDash = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a   className="nav-link">
                                     <i className="nav-icon fas fa-bell" />
                                     <p>
                                         Notificaciones
@@ -64,7 +64,7 @@ export const MenuDash = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a   className="nav-link">
                                     <i className="nav-icon fas fa-phone-alt" />
                                     <p>
                                         Contáctanos
@@ -73,7 +73,7 @@ export const MenuDash = () => {
                             </li>
 
                             <li className="nav-item">
-                                <a href="pages/widgets.html" className="nav-link">
+                                <a   className="nav-link">
                                     <i className="nav-icon fas fa-question" />
                                     <p>
                                         Ayuda
